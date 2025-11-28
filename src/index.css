@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #F5F5F5;
+  --color-secondary: #333333;
+  --color-accent: #e6c151;
+}
+
+/* In your main CSS file or a <style> block */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust as needed */
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Tailwind color utility */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Tailwind color utility */
+  border-radius: 4px; /* Optional: for rounded thumb */
+}
